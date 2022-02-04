@@ -72,8 +72,8 @@ static const struct arg args[] = {
         { separator,        "|",            NULL },
         { ram_perc,         "  %2s%% ",    NULL    },
         { separator,        "|",            NULL },
-        { disk_used,        "  %s/",        "/" },
-        { disk_total,       "%s ",           "/" },
+        { disk_used,        "  %s ",        "/" },
+        /*{ disk_total,       "%s ",           "/" },*/
         { separator,        "|",             NULL },
         { datetime,         "  %s",       "%b %d (%a) %T " },
 };
