@@ -9,6 +9,9 @@ MANPREFIX = $(PREFIX)/share/man
 
 X11INC = /usr/X11R6/include
 X11LIB = /usr/X11R6/lib
+# FreeBSD (uncommented)
+X11INC = /usr/local/include
+X11LIB = /usr/local/lib
 
 # flags
 CPPFLAGS = -I$(X11INC) -D_DEFAULT_SOURCE
